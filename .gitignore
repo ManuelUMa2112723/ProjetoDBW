@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+
+# Uploads locais; preservar a pasta num clone novo.
+/public/uploads/*
+!/public/uploads/.gitkeep
+/client/build/
+coverage/
+.DS_Store
+Thumbs.db

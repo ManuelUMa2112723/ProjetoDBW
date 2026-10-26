@@ -1,0 +1,53 @@
+
+
+/* Define o fundo gradiente azul para o body inteiro */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #74ABE2, #5563DE);
+  color: #333;
+}
+
+/* Classe para o container principal */
+.main-container {
+  height: 100%;
+  width: 96%;
+  margin: 0 auto;   /* Centraliza horizontalmente */
+  padding: 2rem;
+  background: linear-gradient(135deg, #74ABE2, #5563DE); /* Fundo branco */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Estiliza o título principal */
+.main-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+
+.section {
+  margin-bottom: 2rem;
+}
+
+
+nav {
+  background: #fff;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+nav a {
+  color: #5563DE;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

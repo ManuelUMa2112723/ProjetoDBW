@@ -1,0 +1,138 @@
+/* RoomPage.css */
+.room-container {
+    min-width: 800px;
+  min-height: 472px;
+  max-width: 800px;
+  max-height: 4500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .waiting-msg {
+    min-width: 800px;
+  min-height: 472px;
+  max-width: 800px;
+  max-height: 4500px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  .match-tag{
+    color:#1a1a1a;
+  }
+  h2{
+    color:#1a1a1a;
+  }
+  h3{
+    color:#1a1a1a;
+  }
+  .room-container-page{
+     min-width: 800px;
+  min-height: 600px;
+  max-width: 800px;
+  max-height: 4500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  .session-active .timer {
+    
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .ideas-area {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .input-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .input-area h4 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .input-field {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-area button {
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    background: #5563de;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .input-area button:hover {
+    background: #4452c4;
+  }
+  
+  .ideas-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .processing-msg {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .result-area {
+    background: #eef;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccd;
+    margin-top: 1rem;
+  }
+  
+  .result-area pre {
+    margin: 0;
+  }
+  
+  .ai-result-box {
+    background-color: #f9f9ff;
+    color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    white-space: pre-wrap;
+    line-height: 1.6;
+    margin-top: 20px;
+    font-family: "Segoe UI", sans-serif;
+  }
+
+  .ideas-list ul {
+    background-color: #f9f9f9;
+    color: #1a1a1a;
+    padding: 10px;
+    border-radius: 8px;
+    list-style-type: disc;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    white-space: pre-wrap;
+  }
+  .input-area h5 {
+    color: #1a1a1a;
+    margin-top: 10px;
+  }
+    

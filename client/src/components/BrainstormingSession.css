@@ -1,0 +1,126 @@
+/* BrainstormingSession.css */
+
+/* Fundo e estilo global para o body */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;         
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2; /* Cinza claro para contraste */
+  color: #333;         /* Texto escuro */
+}
+
+/* Container principal da sessão */
+.brainstorm-container {
+  min-width: 800px;
+  min-height: 540px;
+  max-width: 800px;
+  max-height: 4500px;
+  margin: 2rem auto;
+  background: #fff;      /* Fundo branco */
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd; 
+}
+
+/* Título da sessão*/
+.section-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Estilo para o rótulo do input */
+.input-label {
+  color: #333;  
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Estilo para a área do timer */
+.timer h3 {
+  font-weight: bold;
+  color: #333;  
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Estilo para a mensagem de processamento */
+.processing-msg {
+  font-weight: bold;
+  color: #333;  
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Área de resultado da AI */
+.result-area h3 {
+  font-weight: bold;
+  color: #333;  
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Estilo para a resposta da AI */
+.ai-response {
+  color: #333;  
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Botões */
+.btn {
+  background: #5563DE;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.btn:hover {
+  background: #4452c4;
+}
+
+/* Input de texto para tema/ideias */
+.input-field {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Box que exibe o "Resultado da AI" */
+.ai-result-box {
+  background: #EEF6FF; /* Azul clarinho */
+  border: 1px solid #cce0ff;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  color: #333;
+}
+
+/* Título do resultado da AI dentro da caixa */
+.ai-result-box h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Estilização para exibir o JSON, se necessário */
+.ai-result-box pre {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin-top: 0.5rem;
+}
